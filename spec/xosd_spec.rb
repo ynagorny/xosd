@@ -62,7 +62,7 @@ RSpec.describe XOSD do
       xosd = XOSD.new(timeout: 1)
       xosd.display_slider 50
       expect(xosd.on_screen?).to be_truthy
-      xosd.xosd_wait_until_no_display
+      xosd.wait_until_no_display
       expect(xosd.on_screen?).to be_falsey
       xosd.teardown
     end

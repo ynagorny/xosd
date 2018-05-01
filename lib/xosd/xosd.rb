@@ -43,7 +43,7 @@ class XOSD
     XOSD_Bindings.xosd_is_onscreen(@osd) != 0
   end
 
-  def xosd_wait_until_no_display
+  def wait_until_no_display
     handle(XOSD_Bindings.xosd_wait_until_no_display(@osd))
   end
 
