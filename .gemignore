@@ -1,0 +1,5 @@
+.gitignore
+.gemignore
+Rakefile
+Vagrantfile
+provision.sh

@@ -1,0 +1,1 @@
+require 'xosd/xosd'
