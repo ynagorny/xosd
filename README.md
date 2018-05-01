@@ -20,7 +20,7 @@ You may pass zero or more of the options to the constructor:
 
 | Option | Description |
 | --- | --- |
-| lines | max number of lines in the on screen message |
+| :lines | max number of lines in the on screen message |
 | :position | one of :top, :middle, :bottom |
 | :align | one of :left, :center, :right |
 | :colour | string with message color |
@@ -62,7 +62,7 @@ xosd = XOSD.new(
     shadow_offset: 1,
     timeout: 3
 )
-xosd.display_string 'A line to display on screen'
+xosd.display 'A line to display on screen'
 xosd.teardown
 ```
 
