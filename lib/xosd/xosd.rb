@@ -116,7 +116,7 @@ class XOSD
   private
 
   def self.finalize(id)
-    ObjectSpace._id2re(id).teardown
+    ObjectSpace._id2ref(id).teardown
   end
 
   def handle(result)

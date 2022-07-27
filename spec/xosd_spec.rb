@@ -21,7 +21,7 @@ RSpec.describe XOSD do
                      position: :bottom,
                      align: :center,
                      vertical_offset: 100,
-                     font: '-*-arial-*-*-*-*-*-320-*-*-*-*-*-*',
+                     font: '-*-*-*-*-*-*-*-*-*-*-*-*-*-*',
                      colour: 'black',
                      outline_colour: 'orange',
                      outline_offset: 1,

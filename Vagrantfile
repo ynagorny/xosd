@@ -1,7 +1,7 @@
 Vagrant.configure('2') do |config|
 
   config.vm.define 'xosd' do |xosd|
-    xosd.vm.box = 'ubuntu/trusty64'
+    xosd.vm.box = 'ubuntu/jammy64'
     xosd.vm.hostname = 'xosd'
     xosd.vm.synced_folder "#{ENV['HOME']}/git/xosd", "/vagrant"
     xosd.vm.provision :shell, path: 'provision.sh'
