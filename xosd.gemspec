@@ -1,7 +1,7 @@
 Gem::Specification.new do |spec|
   spec.name        = 'xosd'
-  spec.version     = '1.0.1'
-  spec.date        = '2018-04-30'
+  spec.version     = '1.1.0'
+  spec.date        = '2022-07-27'
   spec.summary     = "Ruby wrapper for xosd"
   spec.description = "Ruby wrapper for xosd - X on screen display library"
   spec.authors     = ["Yurie Nagorny"]
