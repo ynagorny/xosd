@@ -13,7 +13,6 @@ Gem::Specification.new do |spec|
   gem_ignored_files = `git ls-files -i -X .gemignore -z`.split("\x0")
   spec.files = git_tracked_files - gem_ignored_files
 
-  spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
   spec.add_dependency 'ffi', '~> 1.15.5'
